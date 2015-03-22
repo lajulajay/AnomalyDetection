@@ -17,7 +17,7 @@ be used to detect both global as well as local anomalies. This is achieved by
 employing time series decomposition and using robust statistical metrics, viz.,
 median together with ESD. In addition, for long time series (say, 6 months of
 minutely data), the algorithm employs piecewise approximation - this is rooted
-to the fact that trend extraction in the presence of anomalies in non-trivial -
+in the fact that trend extraction in the presence of anomalies is non-trivial -
 for anomaly detection.
 
 Besides time series, the package can also be used to detect anomalies in a
